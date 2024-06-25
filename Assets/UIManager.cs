@@ -40,7 +40,7 @@ public class UIManager : MonoBehaviour
     void ShowWord(int index) {
         englishText.text = currentWord.englishStr;
         chineseText.text = currentWord.chineseStr;
-        //chineseText.enabled=false;
+        chineseText.enabled=false;
     }
 }
 [System.Serializable]
